@@ -26,7 +26,7 @@ resource "aws_budgets_budget" "monthly_budget" {
     notification_type          = "FORECASTED"
     threshold                  = 75
     threshold_type             = "PERCENTAGE"
-    subscriber_email_addresses = ["silva.dom743@gmail.com"]
+    subscriber_email_addresses = []
   }
 
   tags = {
