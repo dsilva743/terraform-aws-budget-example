@@ -26,7 +26,7 @@ resource "aws_budgets_budget" "monthly_budget" {
     notification_type          = "FORECASTED"
     threshold                  = 75
     threshold_type             = "PERCENTAGE"
-    subscriber_email_addresses = []
+    subscriber_email_addresses = []   # <- Add add email here
   }
 
   tags = {
