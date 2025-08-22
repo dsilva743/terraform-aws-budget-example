@@ -1,7 +1,6 @@
 # Terraform AWS Budget Example
 
 This repository contains a simple Terraform configuration that creates an AWS Cost Budget with email notifications.  
-It is intended as a reference example and **not** a production-ready module.
 
 
 ## What It Does
